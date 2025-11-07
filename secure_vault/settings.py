@@ -149,5 +149,8 @@ X_FRAME_OPTIONS = 'DENY'
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
+CSRF_TRUSTED_ORIGINS = ['https://testvaultrepo.onrender.com']
+
+
 # Custom User Model
 AUTH_USER_MODEL = 'users.CustomUser'
